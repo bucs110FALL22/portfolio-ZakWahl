@@ -15,4 +15,4 @@ Preferred Name: Zakary Wahl
 Discord username: digimee
 
 REPL url: https://replit.com/@ZakWahl 
-Github REPO url: 
+Github REPO url: https://github.com/bucs110FALL22/portfolio-ZakWahl 
