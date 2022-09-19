@@ -11,6 +11,8 @@ my_turtle = turtle.Turtle()
 my_turtle.shape("turtle")
 my_turtle.color("red") 
 
+print([angle]*sides)
+
 for i in [angle]*sides:
  my_turtle.left(i)
  my_turtle.forward(length)
