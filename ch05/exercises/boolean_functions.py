@@ -21,4 +21,3 @@ grade = int(input("What is your current grade? "))
 percentage_to_letter(grade) 
 result = (percentage_to_letter)
 is_passing(result) 
-  
