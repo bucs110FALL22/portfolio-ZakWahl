@@ -8,6 +8,7 @@ authors = ["Replit user <<>>"]
 python = "^3.8"
 pygame = "^2.1.2"
 draw-devops-against-humanity = "^0.0.4"
+f = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 

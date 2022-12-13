@@ -10,6 +10,17 @@ python-versions = "*"
 tests = ["py (>=1.4.26)", "pyflakes (==1.1.0)", "pytest (>=3.0.7)", "pytest-cache (>=1.0)", "pytest-cov (>=2.1.0)", "pytest-flakes (>=1.0.1)", "pytest-isort (==0.1.0)", "pytest-pep8 (>=1.0.6)", "coverage (>=4.0)", "pep8 (>=1.6.2)", "tox", "tox-pyenv"]
 
 [[package]]
+name = "f"
+version = "0.0.1"
+description = "Functional tools, collections and monads."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Six = "*"
+
+[[package]]
 name = "pygame"
 version = "2.1.2"
 description = "Python Game Development"
@@ -17,11 +28,21 @@ category = "main"
 optional = false
 python-versions = ">=3.6"
 
+[[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c07af1b5b7d69c189f38474bed07b7f3f566c1652e9a8be1c121c5effe632437"
+content-hash = "23913950f9e41c052734b413c070121eecd5ac82ac663dfdd2afee54f2b307a7"
 
 [metadata.files]
 draw-devops-against-humanity = []
+f = []
 pygame = []
+six = []
